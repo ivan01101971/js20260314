@@ -1,0 +1,43 @@
+*{
+   padding:0;
+   margin: 0;   
+}
+
+p{
+    outline:5px solid rgb(148, 71, 3);
+    position: relative;
+    width: 150px;
+}
+span{
+    color:red;
+    top:20px;
+    left:20px;
+    position: fixed;
+}
+
+.circle{    
+    position: absolute;
+}
+.el{
+    width:300px;
+    height: 150px;
+    background: blue;
+    border-radius: 40%;
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    margin:auto;
+}
+
+.circle1{
+  border-color:yellow red yellow red;
+    border-style: solid solid solid solid;
+    border-width: 30px;
+ 
+    /* 設定 width、height 可更好理解原理 */
+    height: 150px;
+    width: 150px;
+    left:500px;
+}
