@@ -1,13 +1,11 @@
-*{
-   padding:0;
-   margin: 0;   
-}
 
 p{
     outline:5px solid rgb(148, 71, 3);
     position: relative;
     width: 150px;
+    font-size: xx-large;
 }
+
 span{
     color:red;
     top:20px;
@@ -40,4 +38,19 @@ span{
     height: 150px;
     width: 150px;
     left:500px;
+}
+
+.dTA{
+    display:none;
+}
+
+.dTA.active{
+    display: block;
+
+}
+
+.txt1{
+    width:200px;
+    height: 200px;
+
 }
